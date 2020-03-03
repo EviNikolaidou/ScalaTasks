@@ -5,7 +5,10 @@ import scala.util.Random
 object hangman extends App {
   val possiblewords = List("hello", "student", "school", "computer" )
   val choosenWord = Random.shuffle(possiblewords).head
-  println(choosenWord)
-  "hello".count(  == )
-}
+  // println(choosenWord)
+  println("_ " * choosenWord.length)
+  choosenWord.toList
+
+  val letter = scala.io.StdIn.readLine("Give a letter:")
+  for
 
