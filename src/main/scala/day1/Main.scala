@@ -32,7 +32,26 @@ object Main extends App {
   //Strings
   user("evi", 2)
   def user(string: String,number:Int) = {
-
     //string.splitAt(string.length-number)._2
   }
+
+  //Strings2
+
+  //Operatots
+  opsum(a=5,b=3)
+  def opsum(a:Int, b:Int) ={
+    val sum = a+b
+    println(sum)
+  }
+
+  //Conditionals
+  contiti(a=5,b=3,c="True")
+  def contiti(a:Int , b:Int , c:String) = {
+    if (c == "True")
+      println(a+b)
+    else
+      println(a*b)
+  }
+
+  //contitionals 2
 }
