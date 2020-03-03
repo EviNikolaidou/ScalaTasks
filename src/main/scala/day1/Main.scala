@@ -30,8 +30,9 @@ object Main extends App {
   }
 
   //Strings
-  user("evi", 23)
+  user("evi", 2)
   def user(string: String,number:Int) = {
-    string.splitAt(string.length-number)._2
+
+    //string.splitAt(string.length-number)._2
   }
 }
