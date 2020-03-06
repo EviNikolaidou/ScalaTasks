@@ -1,8 +1,10 @@
 package day5
 
 object trials extends App{
-  val list = List("p", "Scissors", "Rock", "p", "p", "Scisssors" )
-  val countPaper = list.count((_ == "p"))
-  println(countPaper)
-
+  val moves = List("P", "S", "R", "P", "P", "S" )
+  val countPaper = moves.count((_ == "P"))
+  val countScissors = moves.count((_ == "S"))
+  val countRock = moves.count((_ == "R"))
+  val predMove = List(countPaper,countScissors,countRock).sorted.tail
+  println(predMove)
 }
