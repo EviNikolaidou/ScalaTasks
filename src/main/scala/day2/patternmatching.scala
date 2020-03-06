@@ -2,8 +2,8 @@ package day2
 
 object patternmatching extends App {
  // Pattern Matching
-    var a = 5
-    var b = 6
+    val  a = 5
+    val b = 6
     val c = "True"
     c match {
     case "True" => println (a + b)

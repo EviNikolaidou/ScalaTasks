@@ -1,9 +1,14 @@
 package day3
 
 object Functional1 extends App {
-  val timezones = java.util.TimeZone.getAvailableIDs
-  val countries = for (zone <- timezones if zone.contains("/*")) yield {
-    zone.stripPrefix("/*")
+  def funct() ={
+   // val timezones = java.util.TimeZone.getAvailableIDs
+    //val pairs = timezones.splitAt("/").grouped(10)
+
   }
-  println(countries)
+  //
+  //val countries = for (zone <- timezones if zone.contains("/")) yield{ zone.stripPrefix("/")}
+
+
+
 }
