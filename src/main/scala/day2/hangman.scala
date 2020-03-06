@@ -8,7 +8,12 @@ object hangman extends App {
   // println(choosenWord)
   println("_ " * choosenWord.length)
   choosenWord.toList
+  val w = 7
 
-  val letter = scala.io.StdIn.readLine("Give a letter:")
-  for
+ // for (w != 0) {
+    //val letter = scala.io.StdIn.readLine("Give a letter:")
+
+
+
+}
 
