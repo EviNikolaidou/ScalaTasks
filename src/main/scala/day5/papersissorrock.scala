@@ -73,9 +73,12 @@ object papersissorrock extends App {
 
     if (AImove == playerMove) {
        "It's a tie!"}
-    if
+    if  {
 
     }
+
+
+  }
 
 
 
