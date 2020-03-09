@@ -1,4 +1,6 @@
 package day5
 
-object trials extends App{
+object trials extends App {
+
+}
 

@@ -1,6 +1,6 @@
 package day5
 
-
+/*
 //1) def for player's move, num of players, add move to list
 //2) def AImove , countnumber of each move player and make a move
 //3) def winner find the winner
@@ -73,9 +73,6 @@ object papersissorrock extends App {
 
     if (AImove == playerMove) {
        "It's a tie!"}
-    if  {
-
-    }
 
 
   }
@@ -86,3 +83,4 @@ object papersissorrock extends App {
 
 
 }
+*/
