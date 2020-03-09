@@ -2,6 +2,7 @@ package day4
 
 import scala.collection.mutable.ListBuffer
 
+
 object creditcard extends App {
   var number = 49927398716L
   println(validCard(number))
