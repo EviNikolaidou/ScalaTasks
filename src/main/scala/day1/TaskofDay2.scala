@@ -3,7 +3,7 @@ package day1
 object TaskofDay2 extends App {
 
   println(function(2, 7, 4))
-  println(function2(2, 7, 4))
+  println(function2(2, 6, 4))
 
   def function(a: Int, b: Int, c: Int) = {
     val list = List(a, b, c)
